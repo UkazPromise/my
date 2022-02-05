@@ -56,11 +56,11 @@ function Home() {
           {show ? (
           <div className="sideNavbar">
               <ul className="sidebar d__flex">
-                <li className="sideNavbar"><a href="#home">Home</a></li>
-                <li className="sideNavbar"><a href="#about">About</a></li>
-                <li className="sideNavbar"><a href="#service">Service</a></li>
-                <li className="sideNavbar"><a href="#project">Project</a></li>
-                <li className="sideNavbar"><a href="#contact">Contact</a></li>
+                <li className="sideNavbar"><a href="#Home">Home</a></li>
+                <li className="sideNavbar"><a href="#About">About</a></li>
+                <li className="sideNavbar"><a href="#Service">Service</a></li>
+                <li className="sideNavbar"><a href="#Project">Project</a></li>
+                <li className="sideNavbar"><a href="#Contact">Contact</a></li>
               </ul>
           </div>
           ) : null}
